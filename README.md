@@ -1,74 +1,60 @@
-# 📊 Desafios Power BI - DIO Academy
+# 🎓 Desafios DIO - Minha Jornada de Aprendizado
 
-Repositório dedicado aos desafios e projetos do curso de **Power BI** da **DIO Academy**.
+Repositório principal dedicado aos desafios, projetos e certificações da **DIO Academy**.
 
-## 📝 Sobre
+## 📚 Estrutura do Repositório
 
-Este repositório contém exercícios práticos, projetos e soluções relacionados ao aprendizado de Power BI, abrangendo:
+Este repositório está organizado por cursos/desafios, cada um com seus próprios projetos e recursos:
 
-- 📈 Visualização de dados
-- 🔗 Modelagem de dados
-- 💾 Transformação e limpeza de dados (Power Query)
-- 📊 Criação de dashboards e relatórios
-- 🔍 Análise exploratória de dados
+### 📊 [Universia - Primeiros Passos em Power BI](./Universia%20-%20Primeiros%20Passos%20em%20Power%20BI)
+Exercícios práticos e projetos relacionados ao aprendizado de Power BI através do programa Universia, abrangendo visualização, modelagem e transformação de dados.
 
+**Conteúdo:**
+- `projeto_1/` - Primeiro projeto prático
+- `projeto_2/` - Segundo projeto prático
 
-## 🚀 Como Usar
+---
 
-1. Navegue até a pasta do desafio desejado
-2. Abra os arquivos `.pbix` no Power BI Desktop
-3. Consulte os arquivos README em cada desafio para instruções específicas
+### 🤖 [Santander - Excel com IA e Claude](./Santander%20-%20Excel%20com%20IA%20e%20Claude)
+Desafios práticos integrando Excel com Inteligência Artificial usando Claude, explorando automação e análise de dados com IA.
 
+**Status:** 🚀 Em desenvolvimento
 
+---
 
-## 💡 Dicas
+## 🎯 Objetivos
 
-- 📚 Consulte a pasta `recursos/` para datasets e materiais de referência
-- 📝 Mantenha anotações de aprendizado na pasta `notas/`
-- 🔗 Link arquivos de fonte quando necessário
+- ✅ Consolidar conhecimentos em diferentes tecnologias e ferramentas
+- ✅ Documentar minha jornada de aprendizado
+- ✅ Compartilhar soluções e melhores práticas
+- ✅ Manter um portfólio de projetos realizados
+
+## 💡 Como Usar Este Repositório
+
+1. Navegue até a pasta do curso/desafio que deseja explorar
+2. Leia o README específico de cada curso para mais detalhes
+3. Explore os projetos e consulte as instruções em cada um
+4. Sinta-se livre para usar como referência ou aprender com os exemplos
+
+## 🚀 Próximos Passos
+
+- [ ] Completar todos os projetos do Universia Power BI
+- [ ] Explorar integração de IA com Excel e Claude
+- [ ] Adicionar novos cursos conforme progresso na DIO
+- [ ] Melhorar documentação e exemplos
+
+## 📊 Estatísticas
+
+- **Cursos em Progresso:** 2
+- **Projetos Completados:** 2
+- **Última Atualização:** 10/09/2026
 
 ## 📧 Contato
 
 - **Autor:** Thiago Queiroz Sarnaglia
-- **Curso:** Power BI - DIO Academy
+- **Plataforma:** DIO Academy
+- **Objetivo:** Desenvolvimento Profissional em Dados e IA
 
 ---
 
-**Última atualização:** 12/08/2026
-
-
-## English / Português
-
-# 📊 Power BI Challenges - DIO Academy
-
-Repository dedicated to the exercises and projects from the **Power BI** course at **DIO Academy**.
-
-## 📝 About
-
-This repository contains practical exercises, projects and solutions related to learning Power BI, covering:
-
-- 📈 Data visualization
-- 🔗 Data modeling
-- 💾 Data transformation and cleaning (Power Query)
-- 📊 Dashboard and report creation
-- 🔍 Exploratory data analysis
-
-## 🚀 How to Use
-
-1. Navigate to the folder of the desired challenge.
-2. Open the `.pbix` files in Power BI Desktop.
-3. Check the README files in each challenge for specific instructions.
-
-## 💡 Tips
-
-- 📚 Check the `recursos/` folder for datasets and reference materials.
-- 📝 Keep learning notes in the `notas/` folder.
-- 🔗 Link source files when necessary.
-
-## 📧 Contact
-
-- **Author:** Thiago Queiroz Sarnaglia
-- **Course:** Power BI - DIO Academy
-
----
-**Last updated:** 12/08/2026
+**Bem-vindo à minha jornada de aprendizado! 🚀**
