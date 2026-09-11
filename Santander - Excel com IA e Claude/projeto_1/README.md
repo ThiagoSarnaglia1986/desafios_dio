@@ -210,4 +210,4 @@ Data Analyst Portfolio
 
 🐙 GitHub: @ThiagoSarnaglia1986
 
-📁 Repository: desafios_di
+📁 Repository: desafios_dio
