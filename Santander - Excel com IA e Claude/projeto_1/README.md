@@ -7,7 +7,7 @@
 
 ---
 
-🌐 **Idiomas / Languages**: [Português](#-português) | [English](#-english)
+🌐 **Languages / Idiomas**: [Português](#-português) | [English](#-english)
 
 ---
 
@@ -60,9 +60,154 @@ Para legibilidade e manutenção das fórmulas, a planilha utiliza os seguintes 
 
 #### 2. Projeção Patrimonial (Juros Compostos)
 Utilização da função de Valor Futuro (`VF` / `FV`) para cálculo do saldo acumulado:
-$$\text{Patrimônio} = \text{VF}(\text{taxa\_mensal}; \text{qtd\_anos} \times 12; \text{aporte} \times -1)$$
 
-#### 3. Matriz de Busca por Chave Concatenada
-Para obter os percentuais recomendados da `Planilha2`, é utilizada uma chave de busca composta (`Perfil-Tipo de FII`):
 ```excel
+=VF(taxa_mensal; qtd_anos * 12; aporte * -1)
+3. Matriz de Busca por Chave Concatenada
+Para obter os percentuais recomendados da Planilha2, é utilizada uma chave de busca composta (Perfil-Tipo de FII):
+
+Excel
 =PROCV($C$30&"-"&B56; Planilha2!A3:D20; 4; FALSO)
+📁 Estrutura do Repositório
+O arquivo do projeto encontra-se organizado no repositório no seguinte caminho:
+
+Plaintext
+desafios_dio/
+└── Santander - Excel com IA e Claude/
+    └── projeto_1/
+        ├── projeto_1.xlsx
+        └── README.md
+🚀 Como Executar o Projeto
+Clonar o Repositório:
+
+Bash
+git clone [https://github.com/ThiagoSarnaglia1986/desafios_dio.git](https://github.com/ThiagoSarnaglia1986/desafios_dio.git)
+Navegar até a Pasta:
+
+Bash
+cd "desafios_dio/Santander - Excel com IA e Claude/projeto_1"
+Abrir a Planilha:
+
+Abra o arquivo projeto_1.xlsx no Microsoft Excel (2016 ou superior).
+
+Altere as células editáveis na aba APP (Salário, Aporte Mensal, Prazo e Perfil) para visualizar a atualização automática dos cenários e gráficos.
+
+🛠️ Tecnologias Utilizadas
+Microsoft Excel: Modelagem financeira, funções de juros compostos (VF), busca dinâmica (PROCV), intervalos nomeados e gráficos.
+
+Git & GitHub: Versionamento de código e documentação.
+
+Markdown: Estruturação técnica do projeto.
+
+👤 Autor
+Desenvolvido por Thiago Queiroz Sarnaglia
+
+Data Analyst Portfolio
+
+🐙 GitHub: @ThiagoSarnaglia1986
+
+📁 Repositório: desafios_dio
+
+🇺🇸 English
+📌 Table of Contents
+Overview
+
+Spreadsheet Modules and Features
+
+Data Modeling and Formulas
+
+Repository Structure
+
+How to Run the Project
+
+Technologies Used
+
+Author
+
+📝 Overview
+This project consists of an interactive Microsoft Excel spreadsheet (projeto_1.xlsx) designed for personal financial planning and investment simulation in Real Estate Investment Funds (FIIs). The tool automates long-term wealth accumulation projections using compound interest, calculates expected passive dividend income, and generates a personalized portfolio allocation recommendation across different FII sectors based on the investor's risk profile.
+
+⚙️ Spreadsheet Modules and Features
+APP Sheet (Main Dashboard)
+Budget Planning: Input salary and portfolio yield rate to automatically receive an investment contribution suggestion equal to 30% of income.
+
+Monthly Investment Simulator: Editable parameters for contribution amount, timeframe in years, and expected monthly yield.
+
+Multi-Scenario Projection: Automatic comparative table projecting wealth accumulation and monthly dividend generation over 2, 5, 10, 20, and 30-year horizons.
+
+Profile-Based Smart Allocation: Dropdown menu to select investor risk profile (Conservative, Moderate, or Aggressive).
+
+Category Breakdown: Automatic calculation of monetary values to be invested across FII categories (Paper, Brick, Hybrids, FoFs, Development, and Hotels).
+
+Data Visualization: Integrated column chart displaying the recommended portfolio percentage per asset class.
+
+Planilha2 Sheet (Reference Matrix)
+Background lookup matrix containing percentage allocation rules for each FII sector mapped to investor risk profiles.
+
+🧮 Data Modeling and Formulas
+The core logic relies on named ranges, financial mathematics, and dynamic lookup functions:
+
+1. Named Ranges
+To improve formula readability and maintainability, named ranges are used in the APP sheet:
+
+aporte: $D$17
+
+patrimonio: $D$20
+
+qtd_anos: $D$18
+
+rendimento_carteira: $D$13
+
+sugestao: $D$14
+
+taxa_mensal: $D$19
+
+2. Wealth Accumulation (Compound Interest)
+Uses the Future Value (FV / VF) function to project accumulated capital:
+
+Excel
+=FV(taxa_mensal; qtd_anos * 12; aporte * -1)
+3. Dynamic Lookup via Concatenated Key
+To retrieve allocation percentages from Planilha2, a composite key is used (Profile-FII Type):
+
+Excel
+=VLOOKUP($C$30&"-"&B56; Planilha2!A3:D20; 4; FALSE)
+📁 Repository Structure
+The project files are structured within the repository at the following path:
+
+Plaintext
+desafios_dio/
+└── Santander - Excel com IA e Claude/
+    └── projeto_1/
+        ├── projeto_1.xlsx
+        └── README.md
+🚀 How to Run the Project
+Clone the Repository:
+
+Bash
+git clone [https://github.com/ThiagoSarnaglia1986/desafios_dio.git](https://github.com/ThiagoSarnaglia1986/desafios_dio.git)
+Navigate to the Directory:
+
+Bash
+cd "desafios_dio/Santander - Excel com IA e Claude/projeto_1"
+Open the Spreadsheet:
+
+Open projeto_1.xlsx in Microsoft Excel (2016 or newer).
+
+Adjust the editable cells in the APP tab (Salary, Monthly Contribution, Timeframe, Profile) to view dynamic scenario updates and chart visualizations.
+
+🛠️ Technologies Used
+Microsoft Excel: Financial modeling, compound interest functions (FV), dynamic lookup (VLOOKUP), named ranges, and data charts.
+
+Git & GitHub: Version control and project documentation.
+
+Markdown: Technical documentation formatting.
+
+👤 Author
+Developed by Thiago Queiroz Sarnaglia
+
+Data Analyst Portfolio
+
+🐙 GitHub: @ThiagoSarnaglia1986
+
+📁 Repository: desafios_di
