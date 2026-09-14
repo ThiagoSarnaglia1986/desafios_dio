@@ -72,12 +72,13 @@ desafios_dio/
         ├── Projeto_2.xlsx
         └── README.md 
 ```
-🚀 Como Executar o Projeto
+```🚀 Como Executar o Projeto
 Clonar o Repositório:
 
 Bash
 git clone [https://github.com/ThiagoSarnaglia1986/desafios_dio.git](https://github.com/ThiagoSarnaglia1986/desafios_dio.git)
-Navegar até a Pasta:
+```
+```Navegar até a Pasta:
 
 Bash
 cd "desafios_dio/Santander - Excel com IA e Claude/projeto_2"
@@ -86,7 +87,7 @@ Abrir a Planilha:
 Abra o arquivo Projeto_2.xlsx no Microsoft Excel (2016 ou superior).
 
 Preencha os campos nas abas TITULAR, INFORMES e NOTAS para consolidar as informações fiscais.
-
+```
 🛠️ Tecnologias Utilizadas
 Microsoft Excel: Modelagem de dados fiscais, validação de entradas, fórmulas de soma (SOMA/SUM) e estrutura relacional de apoio.
 
