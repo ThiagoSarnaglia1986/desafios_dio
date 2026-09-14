@@ -120,44 +120,45 @@ Technologies Used
 
 Author
 
-### 📝 Overview
+###📝 Overview
 This project consists of an Income Tax Data Aggregator developed in Microsoft Excel (Projeto_2.xlsx) to streamline and structure financial data required for Individual Income Tax Returns (IRPF). The tool automates bank balance consolidation, validates financial institution data, and organizes monthly income streams and paystub records in a structured repository.
 
-### ⚙️ Spreadsheet Modules and Features
+###⚙️ Spreadsheet Modules and Features
 ####TITULAR Sheet (Taxpayer Details)
-* **Taxpayer Information: Standardized record of CPF, voter ID, full address, contact details, and spouse information.
+* Taxpayer Information: Standardized record of CPF, voter ID, full address, contact details, and spouse information.
 
-* **Tax Status Flags: Boolean fields for address change tracking, spouse dependency, and foreign residence status.
+* Tax Status Flags: Boolean fields for address change tracking, spouse dependency, and foreign residence status.
 
-### INFORMES Sheet (Bank Income Statements)
-* **Bank Position Consolidation: Tracking financial balances per banking institution alongside document attachment references (PDFs).
+###INFORMES Sheet (Bank Income Statements)
+* Bank Position Consolidation: Tracking financial balances per banking institution alongside document attachment references (PDFs).
 
-* **Automated Total Sum: Dynamic calculation of total reported financial assets.
+* Automated Total Sum: Dynamic calculation of total reported financial assets.
 
-#### NOTAS Sheet (Income & Paystub Records)
-* **Revenue Tracking: Chronological log of categorized monthly revenues (e.g., salary, paystubs, and secondary income).
+####NOTAS Sheet (Income & Paystub Records)
+* Revenue Tracking: Chronological log of categorized monthly revenues (e.g., salary, paystubs, and secondary income).
 
-#### BANCOS Sheet (Reference Table)
-* **Financial Institutions Matrix: Support table containing clearing codes and official bank names for data validation and standardized lookup.
+####BANCOS Sheet (Reference Table)
+* Financial Institutions Matrix: Support table containing clearing codes and official bank names for data validation and standardized lookup.
 
-### 🧮 Data Modeling and Formulas
+###🧮 Data Modeling and Formulas
 The core logic relies on standardized records and aggregation formulas:
 
-#### 1. Total Wealth Consolidation
+####1. Total Wealth Consolidation
 Automated summation of bank balances across registered financial accounts:
 
 =SUM(D11; D17; D22)
 
-#### 2. Bank List Standardizing
+####2. Bank List Standardizing
 Data validation referencing the BANCOS range (A2:A51) ensuring input consistency across statements.
 
 ### 📁 Repository Structure
-Plaintext
+```Plaintext
 desafios_dio/
 └── Santander - Excel com IA e Claude/
     └── projeto_2/
         ├── Projeto_2.xlsx
         └── README.md
+```
 🚀 How to Run the Project
 Clone the Repository:
 
@@ -173,14 +174,14 @@ Open Projeto_2.xlsx in Microsoft Excel (2016 or newer).
 
 Fill in the fields under TITULAR, INFORMES, and NOTAS to consolidate your tax information.
 
-🛠️ Technologies Used
+###🛠️ Technologies Used
 Microsoft Excel: Financial data modeling, data validation, summation functions (SUM/SOMA), and relational reference structures.
 
 Git & GitHub: Version control and project documentation.
 
 Markdown: Technical documentation formatting.
 
-👤 Author
+###👤 Author
 Developed by Thiago Queiroz Sarnaglia
 
 Data Analyst Portfolio
