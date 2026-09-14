@@ -70,7 +70,8 @@ desafios_dio/
 └── Santander - Excel com IA e Claude/
     └── projeto_2/
         ├── Projeto_2.xlsx
-        └── README.md
+        └── README.md 
+```
 🚀 Como Executar o Projeto
 Clonar o Repositório:
 
