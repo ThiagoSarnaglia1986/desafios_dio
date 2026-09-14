@@ -1,4 +1,14 @@
-Markdown
+================================================================================
+1. DESCRIÇÃO PARA A ENTREGA DO PROJETO NA PLATAFORMA DIO
+================================================================================
+
+Agregador e centralizador de dados para a Declaração de Imposto de Renda Pessoa Física (IRPF) desenvolvido no Microsoft Excel. Implementei uma estrutura modular dividida em cadastro padronizado de dados do titular, consolidação de informes de rendimentos bancários com cálculo de somatório dinâmico (SOMA), controle cronológico de receitas e holerites, e uma aba de apoio com matriz de instituições financeiras para validação de dados. A solução otimiza a organização prévia dos documentos fiscais, garantindo integridade das informações e praticidade no processo declaratório.
+
+
+================================================================================
+2. CONTEÚDO INTEGRAL DO ARQUIVO README.MD (COPIAR TUDO PARA O GITHUB)
+================================================================================
+
 # 📑 Agregador de Dados para Imposto de Renda (IRPF)
 ### 📑 Income Tax Data Aggregator (IRPF)
 
@@ -8,29 +18,32 @@ Markdown
 
 ---
 
-🌐 **Languages / Idiomas**: [Português](#-português) | [English](#-english)
+🌐 **Languages / Idiomas**: [Português](#portugues) | [English](#english-sec)
 
 ---
 
+<a id="portugues"></a>
 ## 🇧🇷 Português
 
 ### 📌 Sumário
-- [Visão Geral](#-visão-geral)
-- [Funcionalidades e Módulos da Planilha](#-funcionalidades-e-módulos-da-planilha)
-- [Modelagem de Dados e Fórmulas](#-modelagem-de-dados-e-fórmulas)
-- [Estrutura do Repositório](#-estrutura-do-repositório)
-- [Como Executar o Projeto](#-como-executar-o-projeto)
-- [Tecnologias Utilizadas](#-tecnologias-utilizadas)
-- [Autor](#-autor)
+- [Visão Geral](#visao-geral)
+- [Funcionalidades e Módulos da Planilha](#funcionalidades)
+- [Modelagem de Dados e Fórmulas](#modelagem)
+- [Estrutura do Repositório](#estrutura-pt)
+- [Como Executar o Projeto](#executar-pt)
+- [Tecnologias Utilizadas](#tecnologias-pt)
+- [Autor](#autor-pt)
 
 ---
 
+<a id="visao-geral"></a>
 ### 📝 Visão Geral
 
 O projeto consiste em uma ferramenta de centralização e organização de dados fiscais desenvolvida em Microsoft Excel (`Projeto_2.xlsx`) para apoiar o preenchimento da Declaração de Imposto de Renda Pessoa Física (IRPF). A solução automatiza a consolidação de saldos bancários, valida informações de instituições financeiras e organiza os históricos de receitas e holerites em um ambiente estruturado.
 
 ---
 
+<a id="funcionalidades"></a>
 ### ⚙️ Funcionalidades e Módulos da Planilha
 
 #### Aba `TITULAR` (Dados Cadastrais)
@@ -49,143 +62,152 @@ O projeto consiste em uma ferramenta de centralização e organização de dados
 
 ---
 
+<a id="modelagem"></a>
 ### 🧮 Modelagem de Dados e Fórmulas
 
 A inteligência do modelo baseia-se na padronização de registros e fórmulas de consolidação:
 
-#### 1. Consolidação de Posição Patrimonial Total
-Soma automática dos valores informados nas contas bancárias cadastradas:
-
-`=SOMA(D11; D17; D22)`
-
-#### 2. Padronização de Lista de Bancos
-Utilização do intervalo da aba `BANCOS` (`A2:A51`) para validação de dados e consistência no preenchimento dos informes.
+1. **Consolidação de Posição Patrimonial Total**: Soma automática dos valores informados nas contas bancárias cadastradas (`=SOMA(D11; D17; D22)`).
+2. **Padronização de Lista de Bancos**: Utilização do intervalo da aba `BANCOS` (`A2:A51`) para validação de dados e consistência no preenchimento dos informes.
 
 ---
 
+<a id="estrutura-pt"></a>
 ### 📁 Estrutura do Repositório
 
-```text
-desafios_dio/
-└── Santander - Excel com IA e Claude/
-    └── projeto_2/
-        ├── Projeto_2.xlsx
-        └── README.md 
-```
+    desafios_dio/
+    └── Santander - Excel com IA e Claude/
+        └── projeto_2/
+            ├── Projeto_2.xlsx
+            └── README.md
+
+---
+
+<a id="executar-pt"></a>
 ### 🚀 Como Executar o Projeto
-Clonar o Repositório:
 
-Bash
-git clone [https://github.com/ThiagoSarnaglia1986/desafios_dio.git](https://github.com/ThiagoSarnaglia1986/desafios_dio.git)
+1. **Clonar o Repositório**:
+    git clone https://github.com/ThiagoSarnaglia1986/desafios_dio.git
 
-Navegar até a Pasta:
+2. **Navegar até a Pasta**:
+    cd "desafios_dio/Santander - Excel com IA e Claude/projeto_2"
 
-Bash
-cd "desafios_dio/Santander - Excel com IA e Claude/projeto_2"
-Abrir a Planilha:
+3. **Abrir a Planilha**:
+   * Abra o arquivo `Projeto_2.xlsx` no Microsoft Excel (2016 ou superior).
+   * Preencha os campos nas abas `TITULAR`, `INFORMES` e `NOTAS` para consolidar as informações fiscais.
 
-Abra o arquivo Projeto_2.xlsx no Microsoft Excel (2016 ou superior).
+---
 
-Preencha os campos nas abas TITULAR, INFORMES e NOTAS para consolidar as informações fiscais.
+<a id="tecnologias-pt"></a>
+### 🛠️ Tecnologias Utilizadas
 
-###🛠️ Tecnologias Utilizadas
-Microsoft Excel: Modelagem de dados fiscais, validação de entradas, fórmulas de soma (SOMA/SUM) e estrutura relacional de apoio.
+* **Microsoft Excel**: Modelagem de dados fiscais, validação de entradas, fórmulas de soma e estrutura relacional de apoio.
+* **Git & GitHub**: Versionamento de código e documentação.
+* **Markdown**: Estruturação técnica do projeto.
 
-Git & GitHub: Versionamento de código e documentação.
+---
 
-Markdown: Estruturação técnica do projeto.
+<a id="autor-pt"></a>
+### 👤 Autor
 
-###👤 Autor
-Desenvolvido por Thiago Queiroz Sarnaglia
+Desenvolvido por **Thiago Queiroz Sarnaglia**  
+*Data Analyst Portfolio*
 
-Data Analyst Portfolio
+* 🐙 **GitHub**: [@ThiagoSarnaglia1986](https://github.com/ThiagoSarnaglia1986)
+* 📁 **Repositório**: [desafios_dio](https://github.com/ThiagoSarnaglia1986/desafios_dio/tree/main/Santander%20-%20Excel%20com%20IA%20e%20Claude/projeto_2)
 
-🐙 GitHub: @ThiagoSarnaglia1986
+---
 
-📁 Repositório: desafios_dio
+<a id="english-sec"></a>
+## 🇺🇸 English
 
-🇺🇸 English
-###📌 Table of Contents
-Overview
+### 📌 Table of Contents
+- [Overview](#overview-en)
+- [Spreadsheet Modules and Features](#features-en)
+- [Data Modeling and Formulas](#modeling-en)
+- [Repository Structure](#structure-en)
+- [How to Run the Project](#run-en)
+- [Technologies Used](#technologies-en)
+- [Author](#author-en)
 
-Spreadsheet Modules and Features
+---
 
-Data Modeling and Formulas
+<a id="overview-en"></a>
+### 📝 Overview
 
-Repository Structure
+This project consists of an Income Tax Data Aggregator developed in Microsoft Excel (`Projeto_2.xlsx`) to streamline and structure financial data required for Individual Income Tax Returns (IRPF). The tool automates bank balance consolidation, validates financial institution data, and organizes monthly income streams and paystub records in a structured repository.
 
-How to Run the Project
+---
 
-Technologies Used
+<a id="features-en"></a>
+### ⚙️ Spreadsheet Modules and Features
 
-Author
+#### `TITULAR` Sheet (Taxpayer Details)
+* **Taxpayer Information**: Standardized record of CPF, voter ID, full address, contact details, and spouse information.
+* **Tax Status Flags**: Boolean fields for address change tracking, spouse dependency, and foreign residence status.
 
-###📝 Overview
-This project consists of an Income Tax Data Aggregator developed in Microsoft Excel (Projeto_2.xlsx) to streamline and structure financial data required for Individual Income Tax Returns (IRPF). The tool automates bank balance consolidation, validates financial institution data, and organizes monthly income streams and paystub records in a structured repository.
+#### `INFORMES` Sheet (Bank Income Statements)
+* **Bank Position Consolidation**: Tracking financial balances per banking institution alongside document attachment references (PDFs).
+* **Automated Total Sum**: Dynamic calculation of total reported financial assets.
 
-###⚙️ Spreadsheet Modules and Features
-####TITULAR Sheet (Taxpayer Details)
-* Taxpayer Information: Standardized record of CPF, voter ID, full address, contact details, and spouse information.
+#### `NOTAS` Sheet (Income & Paystub Records)
+* **Revenue Tracking**: Chronological log of categorized monthly revenues (e.g., salary, paystubs, and secondary income).
 
-* Tax Status Flags: Boolean fields for address change tracking, spouse dependency, and foreign residence status.
+#### `BANCOS` Sheet (Reference Table)
+* **Financial Institutions Matrix**: Support table containing clearing codes and official bank names for data validation and standardized lookup.
 
-###INFORMES Sheet (Bank Income Statements)
-* Bank Position Consolidation: Tracking financial balances per banking institution alongside document attachment references (PDFs).
+---
 
-* Automated Total Sum: Dynamic calculation of total reported financial assets.
+<a id="modeling-en"></a>
+### 🧮 Data Modeling and Formulas
 
-####NOTAS Sheet (Income & Paystub Records)
-* Revenue Tracking: Chronological log of categorized monthly revenues (e.g., salary, paystubs, and secondary income).
-
-####BANCOS Sheet (Reference Table)
-* Financial Institutions Matrix: Support table containing clearing codes and official bank names for data validation and standardized lookup.
-
-###🧮 Data Modeling and Formulas
 The core logic relies on standardized records and aggregation formulas:
 
-####1. Total Wealth Consolidation
-Automated summation of bank balances across registered financial accounts:
+1. **Total Wealth Consolidation**: Automated summation of bank balances across registered financial accounts (`=SUM(D11; D17; D22)`).
+2. **Bank List Standardizing**: Data validation referencing the `BANCOS` range (`A2:A51`) ensuring input consistency across statements.
 
-=SUM(D11; D17; D22)
+---
 
-####2. Bank List Standardizing
-Data validation referencing the BANCOS range (A2:A51) ensuring input consistency across statements.
-
+<a id="structure-en"></a>
 ### 📁 Repository Structure
-```Plaintext
-desafios_dio/
-└── Santander - Excel com IA e Claude/
-    └── projeto_2/
-        ├── Projeto_2.xlsx
-        └── README.md
-```
-🚀 How to Run the Project
-Clone the Repository:
 
-Bash
-git clone [https://github.com/ThiagoSarnaglia1986/desafios_dio.git](https://github.com/ThiagoSarnaglia1986/desafios_dio.git)
-Navigate to the Directory:
+    desafios_dio/
+    └── Santander - Excel com IA e Claude/
+        └── projeto_2/
+            ├── Projeto_2.xlsx
+            └── README.md
 
-Bash
-cd "desafios_dio/Santander - Excel com IA e Claude/projeto_2"
-Open the Spreadsheet:
+---
 
-Open Projeto_2.xlsx in Microsoft Excel (2016 or newer).
+<a id="run-en"></a>
+### 🚀 How to Run the Project
 
-Fill in the fields under TITULAR, INFORMES, and NOTAS to consolidate your tax information.
+1. **Clone the Repository**:
+    git clone https://github.com/ThiagoSarnaglia1986/desafios_dio.git
 
-###🛠️ Technologies Used
-Microsoft Excel: Financial data modeling, data validation, summation functions (SUM/SOMA), and relational reference structures.
+2. **Navigate to the Directory**:
+    cd "desafios_dio/Santander - Excel com IA e Claude/projeto_2"
 
-Git & GitHub: Version control and project documentation.
+3. **Open the Spreadsheet**:
+   * Open `Projeto_2.xlsx` in Microsoft Excel (2016 or newer).
+   * Fill in the fields under `TITULAR`, `INFORMES`, and `NOTAS` to consolidate your tax information.
 
-Markdown: Technical documentation formatting.
+---
 
-###👤 Author
-Developed by Thiago Queiroz Sarnaglia
+<a id="technologies-en"></a>
+### 🛠️ Technologies Used
 
-Data Analyst Portfolio
+* **Microsoft Excel**: Financial data modeling, data validation, summation functions, and relational reference structures.
+* **Git & GitHub**: Version control and project documentation.
+* **Markdown**: Technical documentation formatting.
 
-🐙 GitHub: @ThiagoSarnaglia1986
+---
 
-📁 Repository: desafios_dio
+<a id="author-en"></a>
+### 👤 Author
+
+Developed by **Thiago Queiroz Sarnaglia**  
+*Data Analyst Portfolio*
+
+* 🐙 **GitHub**: [@ThiagoSarnaglia1986](https://github.com/ThiagoSarnaglia1986)
+* 📁 **Repository**: [desafios_dio](https://github.com/ThiagoSarnaglia1986/desafios_dio/tree/main/Santander%20-%20Excel%20com%20IA%20e%20Claude/projeto_2)
