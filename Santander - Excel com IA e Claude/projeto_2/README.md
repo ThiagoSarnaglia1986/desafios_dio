@@ -72,13 +72,13 @@ desafios_dio/
         ├── Projeto_2.xlsx
         └── README.md 
 ```
-```🚀 Como Executar o Projeto
+### 🚀 Como Executar o Projeto
 Clonar o Repositório:
 
 Bash
 git clone [https://github.com/ThiagoSarnaglia1986/desafios_dio.git](https://github.com/ThiagoSarnaglia1986/desafios_dio.git)
-```
-```Navegar até a Pasta:
+
+Navegar até a Pasta:
 
 Bash
 cd "desafios_dio/Santander - Excel com IA e Claude/projeto_2"
@@ -87,15 +87,15 @@ Abrir a Planilha:
 Abra o arquivo Projeto_2.xlsx no Microsoft Excel (2016 ou superior).
 
 Preencha os campos nas abas TITULAR, INFORMES e NOTAS para consolidar as informações fiscais.
-```
-🛠️ Tecnologias Utilizadas
+
+###🛠️ Tecnologias Utilizadas
 Microsoft Excel: Modelagem de dados fiscais, validação de entradas, fórmulas de soma (SOMA/SUM) e estrutura relacional de apoio.
 
 Git & GitHub: Versionamento de código e documentação.
 
 Markdown: Estruturação técnica do projeto.
 
-👤 Autor
+###👤 Autor
 Desenvolvido por Thiago Queiroz Sarnaglia
 
 Data Analyst Portfolio
@@ -105,7 +105,7 @@ Data Analyst Portfolio
 📁 Repositório: desafios_dio
 
 🇺🇸 English
-📌 Table of Contents
+###📌 Table of Contents
 Overview
 
 Spreadsheet Modules and Features
@@ -120,38 +120,38 @@ Technologies Used
 
 Author
 
-📝 Overview
+### 📝 Overview
 This project consists of an Income Tax Data Aggregator developed in Microsoft Excel (Projeto_2.xlsx) to streamline and structure financial data required for Individual Income Tax Returns (IRPF). The tool automates bank balance consolidation, validates financial institution data, and organizes monthly income streams and paystub records in a structured repository.
 
-⚙️ Spreadsheet Modules and Features
-TITULAR Sheet (Taxpayer Details)
-Taxpayer Information: Standardized record of CPF, voter ID, full address, contact details, and spouse information.
+### ⚙️ Spreadsheet Modules and Features
+####TITULAR Sheet (Taxpayer Details)
+* **Taxpayer Information: Standardized record of CPF, voter ID, full address, contact details, and spouse information.
 
-Tax Status Flags: Boolean fields for address change tracking, spouse dependency, and foreign residence status.
+* **Tax Status Flags: Boolean fields for address change tracking, spouse dependency, and foreign residence status.
 
-INFORMES Sheet (Bank Income Statements)
-Bank Position Consolidation: Tracking financial balances per banking institution alongside document attachment references (PDFs).
+### INFORMES Sheet (Bank Income Statements)
+* **Bank Position Consolidation: Tracking financial balances per banking institution alongside document attachment references (PDFs).
 
-Automated Total Sum: Dynamic calculation of total reported financial assets.
+* **Automated Total Sum: Dynamic calculation of total reported financial assets.
 
-NOTAS Sheet (Income & Paystub Records)
-Revenue Tracking: Chronological log of categorized monthly revenues (e.g., salary, paystubs, and secondary income).
+#### NOTAS Sheet (Income & Paystub Records)
+* **Revenue Tracking: Chronological log of categorized monthly revenues (e.g., salary, paystubs, and secondary income).
 
-BANCOS Sheet (Reference Table)
-Financial Institutions Matrix: Support table containing clearing codes and official bank names for data validation and standardized lookup.
+#### BANCOS Sheet (Reference Table)
+* **Financial Institutions Matrix: Support table containing clearing codes and official bank names for data validation and standardized lookup.
 
-🧮 Data Modeling and Formulas
+### 🧮 Data Modeling and Formulas
 The core logic relies on standardized records and aggregation formulas:
 
-1. Total Wealth Consolidation
+#### 1. Total Wealth Consolidation
 Automated summation of bank balances across registered financial accounts:
 
 =SUM(D11; D17; D22)
 
-2. Bank List Standardizing
+#### 2. Bank List Standardizing
 Data validation referencing the BANCOS range (A2:A51) ensuring input consistency across statements.
 
-📁 Repository Structure
+### 📁 Repository Structure
 Plaintext
 desafios_dio/
 └── Santander - Excel com IA e Claude/
