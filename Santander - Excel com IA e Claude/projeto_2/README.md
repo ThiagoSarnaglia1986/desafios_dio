@@ -1,14 +1,3 @@
-================================================================================
-1. DESCRIÇÃO PARA A ENTREGA DO PROJETO NA PLATAFORMA DIO
-================================================================================
-
-Agregador e centralizador de dados para a Declaração de Imposto de Renda Pessoa Física (IRPF) desenvolvido no Microsoft Excel. Implementei uma estrutura modular dividida em cadastro padronizado de dados do titular, consolidação de informes de rendimentos bancários com cálculo de somatório dinâmico (SOMA), controle cronológico de receitas e holerites, e uma aba de apoio com matriz de instituições financeiras para validação de dados. A solução otimiza a organização prévia dos documentos fiscais, garantindo integridade das informações e praticidade no processo declaratório.
-
-
-================================================================================
-2. CONTEÚDO INTEGRAL DO ARQUIVO README.MD (COPIAR TUDO PARA O GITHUB)
-================================================================================
-
 # 📑 Agregador de Dados para Imposto de Renda (IRPF)
 ### 📑 Income Tax Data Aggregator (IRPF)
 
