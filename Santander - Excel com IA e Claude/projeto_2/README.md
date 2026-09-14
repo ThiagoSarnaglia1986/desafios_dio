@@ -65,7 +65,7 @@ Utilização do intervalo da aba `BANCOS` (`A2:A51`) para validação de dados e
 
 ### 📁 Estrutura do Repositório
 
-``text
+```text
 desafios_dio/
 └── Santander - Excel com IA e Claude/
     └── projeto_2/
