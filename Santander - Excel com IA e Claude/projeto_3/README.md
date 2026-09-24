@@ -25,9 +25,13 @@
 
 ### 📝 Visão Geral
 
-Este projeto faz parte do curso **Excel com IA e Claude** da **Santander** e tem como foco a criação de um **dashboard de vendas** em Microsoft Excel. A proposta é transformar dados brutos em informações visuais mais claras, organizadas e úteis para apoiar a análise de desempenho comercial e a tomada de decisões baseadas em dados.
+Este projeto faz parte do curso **Excel com IA e Claude** da **Santander** e tem como foco a criação de um **dashboard de vendas** em Microsoft Excel. A proposta é transformar dados brutos em informações visuais claras, organizadas e úteis para apoiar a análise do desempenho comercial e a tomada de decisões baseadas em dados.
 
 A atividade está alinhada com a ideia de estruturar e apresentar indicadores de vendas em um formato de fácil leitura, conectando organização dos dados, visualização e interpretação dos resultados.
+
+### 📝 Introdução
+
+O desafio consiste em desenvolver uma solução prática no Excel para organizar dados de vendas, destacar métricas relevantes e apresentar um painel visual que facilite a análise de desempenho. O objetivo principal é transformar dados em insights úteis para a gestão comercial e para a tomada de decisão.
 
 ---
 
@@ -105,9 +109,13 @@ Conforme a descrição da atividade, a proposta central é transformar dados bru
 
 ### 📝 Overview
 
-This project is part of the **Excel with AI and Claude** course at **Santander** and focuses on creating a **sales dashboard in Microsoft Excel**. The goal is to turn raw data into clearer, more organized, and more useful visual information to support sales performance analysis and data-driven decision-making.
+This project is part of the **Excel with AI and Claude** course at **Santander** and focuses on creating a **sales dashboard in Microsoft Excel**. The goal is to turn raw data into clear, organized, and useful visual information to support sales performance analysis and data-driven decision-making.
 
 The activity is aligned with the idea of organizing and presenting sales indicators in a format that is easy to read and interpret.
+
+### 📝 Introduction
+
+This challenge consists of developing a practical Excel solution to organize sales data, highlight relevant metrics, and present a visual dashboard that makes performance analysis easier. The main objective is to transform data into useful insights for commercial management and decision-making.
 
 ---
 
