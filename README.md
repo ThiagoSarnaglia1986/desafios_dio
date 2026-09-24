@@ -18,7 +18,10 @@ Exercícios práticos e projetos relacionados ao aprendizado de Power BI atravé
 ### 🤖 [Santander - Excel com IA e Claude](./Santander%20-%20Excel%20com%20IA%20e%20Claude)
 Desafios práticos integrando Excel com Inteligência Artificial usando Claude, explorando automação e análise de dados com IA.
 
-**Status:** 🚀 Em desenvolvimento
+**Conteúdo:**
+- `projeto_1/` - Simulador de investimentos em FIIs e alocação por perfil de risco
+- `projeto_2/` - Agregador de dados para Imposto de Renda (IRPF)
+- `projeto_3/` - Dashboard de vendas no Excel
 
 ---
 
@@ -46,8 +49,8 @@ Desafios práticos integrando Excel com Inteligência Artificial usando Claude, 
 ## 📊 Estatísticas
 
 - **Cursos em Progresso:** 2
-- **Projetos Completados:** 2
-- **Última Atualização:** 10/09/2026
+- **Projetos Completados:** 3
+- **Última Atualização:** 24/09/2026
 
 ## 📧 Contato
 
