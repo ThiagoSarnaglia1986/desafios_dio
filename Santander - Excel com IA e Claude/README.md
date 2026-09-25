@@ -1,32 +1,38 @@
 # 🤖 Santander - Excel com IA e Claude
 
-Repositório dedicado aos desafios e projetos do curso de **Excel com IA e Claude** da **Santander**.
+Repositório dedicado aos projetos concluídos durante o curso de **Excel com IA e Claude**, do **Santander**.
+
+🌐 **Languages / Idiomas**: [Português](#-português) | [English](#-english)
+
+---
+
+## 🇧🇷 Português
 
 ## 📝 Sobre
 
-Este repositório contém exercícios práticos, projetos e soluções relacionados ao aprendizado de Excel integrado com inteligência artificial usando Claude, abrangendo:
+Este repositório reúne os projetos desenvolvidos ao longo do curso, com foco na aplicação prática dos conhecimentos adquiridos em **Microsoft Excel** e em recursos relacionados à **inteligência artificial**. A organização do repositório reflete a evolução do aprendizado em análise de dados, organização de informações e visualização de resultados.
 
-- 🤖 Integração de IA com Excel
-- 📊 Automação de planilhas com Claude
-- 📈 Análise de dados com IA
-- 💻 Fórmulas avançadas e VBA
-- 🔄 Workflows com inteligência artificial
-- 📝 Processamento de texto com Claude
+### 📝 Introdução
 
+Os projetos documentados aqui demonstram como os conceitos trabalhados foram aplicados na criação de planilhas, relatórios e dashboards, com foco na melhoria da organização, interpretação e apresentação dos dados. O objetivo principal é registrar a prática e a evolução das habilidades relacionadas ao uso do Excel como ferramenta de análise e apoio à tomada de decisão.
+
+## 📁 Projetos
+
+- [projeto_1](./projeto_1)
+- [projeto_2](./projeto_2)
+- [projeto_3](./projeto_3)
 
 ## 🚀 Como Usar
 
-1. Navegue até a pasta do desafio desejado
-2. Abra os arquivos `.xlsx` no Microsoft Excel
-3. Consulte os arquivos README em cada desafio para instruções específicas
-
-
+1. Navegue até a pasta do projeto desejado.
+2. Abra os arquivos `.xlsx` no Microsoft Excel.
+3. Consulte o `README.md` de cada projeto para instruções específicas.
 
 ## 💡 Dicas
 
-- 📚 Consulte a pasta `recursos/` para datasets e materiais de referência
-- 📝 Mantenha anotações de aprendizado na pasta `notas/`
-- 🤖 Explore exemplos de prompts para Claude na pasta `prompts/`
+- Revise o README de cada projeto antes de abrir a planilha.
+- Explore os arquivos dentro da pasta do projeto para entender a estrutura e os materiais disponíveis.
+- Use o Excel para analisar os dados, ajustar parâmetros e validar os resultados visualizados.
 
 ## 📧 Contato
 
@@ -35,37 +41,43 @@ Este repositório contém exercícios práticos, projetos e soluções relaciona
 
 ---
 
-**Última atualização:** 10/09/2026
-
+**Última atualização:** 25/09/2026
 
 ## English / Português
 
 # 🤖 Santander - Excel with AI and Claude
 
-Repository dedicated to the exercises and projects from the **Excel with AI and Claude** course at **Santander**.
+Repository dedicated to the projects completed during the **Excel with AI and Claude** course at **Santander**.
+
+🌐 **Languages / Idiomas**: [Português](#-português) | [English](#-english)
+
+---
 
 ## 📝 About
 
-This repository contains practical exercises, projects and solutions related to learning Excel integrated with artificial intelligence using Claude, covering:
+This repository brings together the projects developed throughout the course, with a focus on the practical application of the knowledge acquired in **Microsoft Excel** and in resources related to **artificial intelligence**. The organization of the repository reflects the evolution of learning in data analysis, information organization, and result visualization.
 
-- 🤖 AI integration with Excel
-- 📊 Spreadsheet automation with Claude
-- 📈 Data analysis with AI
-- 💻 Advanced formulas and VBA
-- 🔄 Workflows with artificial intelligence
-- 📝 Text processing with Claude
+### 📝 Introduction
+
+The projects documented here demonstrate how the concepts studied were applied in the creation of spreadsheets, reports, and dashboards, with a focus on improving the organization, interpretation, and presentation of data. The main goal is to record the practice and progression of the skills related to using Excel as a tool for analysis and support in decision-making.
+
+## 📁 Projects
+
+- [projeto_1](./projeto_1)
+- [projeto_2](./projeto_2)
+- [projeto_3](./projeto_3)
 
 ## 🚀 How to Use
 
-1. Navigate to the folder of the desired challenge.
+1. Navigate to the folder of the desired project.
 2. Open the `.xlsx` files in Microsoft Excel.
-3. Check the README files in each challenge for specific instructions.
+3. Check the `README.md` file in each project for specific instructions.
 
 ## 💡 Tips
 
-- 📚 Check the `recursos/` folder for datasets and reference materials.
-- 📝 Keep learning notes in the `notas/` folder.
-- 🤖 Explore Claude prompt examples in the `prompts/` folder.
+- Review the README of each project before opening the spreadsheet.
+- Explore the files inside the project folder to understand the structure and available materials.
+- Use Excel to analyze the data, adjust parameters, and validate the visualized results.
 
 ## 📧 Contact
 
@@ -73,4 +85,5 @@ This repository contains practical exercises, projects and solutions related to 
 - **Course:** Excel with AI and Claude - Santander
 
 ---
-**Last updated:** 10/09/2026
+
+**Last updated:** 25/09/2026
