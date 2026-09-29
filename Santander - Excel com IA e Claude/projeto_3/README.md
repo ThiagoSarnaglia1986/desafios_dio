@@ -25,13 +25,9 @@
 
 ### 📝 Visão Geral
 
-Este projeto faz parte do curso **Excel com IA e Claude** da **Santander** e tem como foco a criação de um **dashboard de vendas** em Microsoft Excel. A proposta é transformar dados brutos em informações visuais claras, organizadas e úteis para apoiar a análise do desempenho comercial e a tomada de decisões baseadas em dados.
+Este projeto faz parte do curso **Excel com IA e Claude** da **Santander** e tem como foco a criação de um **dashboard de vendas** em Microsoft Excel. A proposta é transformar dados brutos em informações visualmente claras e úteis para a gestão comercial.
 
 A atividade está alinhada com a ideia de estruturar e apresentar indicadores de vendas em um formato de fácil leitura, conectando organização dos dados, visualização e interpretação dos resultados.
-
-### 📝 Introdução
-
-O desafio consiste em desenvolver uma solução prática no Excel para organizar dados de vendas, destacar métricas relevantes e apresentar um painel visual que facilite a análise de desempenho. O objetivo principal é transformar dados em insights úteis para a gestão comercial e para a tomada de decisão.
 
 ---
 
@@ -55,8 +51,6 @@ O desafio consiste em desenvolver uma solução prática no Excel para organizar
 
 ### 📁 Estrutura do Repositório
 
-A estrutura deste projeto no repositório segue o padrão já adotado pelos demais desafios:
-
 ```text
 desafios_dio/
 └── Santander - Excel com IA e Claude/
@@ -66,19 +60,26 @@ desafios_dio/
 ```
 
 - `Projeto_3.xlsx`: arquivo da planilha desenvolvida para o dashboard de vendas;
-- `README.md`: documentação do projeto com descrição, objetivos, instruções e estrutura.
+- `README.md`: documentação do projeto.
 
 ---
 
 ### 🚀 Como Executar o Projeto
 
-1. Acesse a pasta do projeto:
-   `cd "desafios_dio/Santander - Excel com IA e Claude/projeto_3"`
-2. Abra o arquivo `Projeto_3.xlsx` no Microsoft Excel;
-3. Revise as abas, filtros e gráficos disponíveis;
-4. Ajuste os dados ou parâmetros conforme necessário para análise e exploração do dashboard.
+1. Clonar o Repositório:
+   ```
+   git clone https://github.com/ThiagoSarnaglia1986/desafios_dio.git
+   ```
 
-> A planilha deve ser mantida na pasta `projeto_3` com nome claro e compatível com o padrão do repositório.
+2. Navegar até a Pasta:
+   ```
+   cd "desafios_dio/Santander - Excel com IA e Claude/projeto_3"
+   ```
+
+3. Abrir a Planilha:
+   - Abra o arquivo `Projeto_3.xlsx` no Microsoft Excel (2016 ou superior);
+   - Revise as abas, filtros e gráficos disponíveis;
+   - Ajuste os dados ou parâmetros conforme necessário para análise.
 
 ---
 
@@ -86,12 +87,20 @@ desafios_dio/
 
 O resultado esperado desta atividade é um dashboard de vendas funcional, organizado e visualmente intuitivo, capaz de:
 
-- apresentar métricas de desempenho;
-- facilitar a análise de tendências e comparações;
-- apoiar a interpretação dos dados de vendas;
-- contribuir para melhores decisões baseadas em evidências.
+- Apresentar métricas de desempenho;
+- Facilitar a análise de tendências e comparações;
+- Apoiar a interpretação dos dados de vendas;
+- Contribuir para melhores decisões baseadas em evidências.
 
-Conforme a descrição da atividade, a proposta central é transformar dados brutos em informações visualmente claras e úteis para a gestão comercial.
+---
+
+### 👤 Autor
+
+Desenvolvido por **Thiago Queiroz Sarnaglia**  
+*Data Analyst Portfolio*
+
+* 🐙 **GitHub**: [@ThiagoSarnaglia1986](https://github.com/ThiagoSarnaglia1986)
+* 📁 **Repositório**: [desafios_dio](https://github.com/ThiagoSarnaglia1986/desafios_dio/tree/main/Santander%20-%20Excel%20com%20IA%20e%20Claude/projeto_3)
 
 ---
 
@@ -109,13 +118,9 @@ Conforme a descrição da atividade, a proposta central é transformar dados bru
 
 ### 📝 Overview
 
-This project is part of the **Excel with AI and Claude** course at **Santander** and focuses on creating a **sales dashboard in Microsoft Excel**. The goal is to turn raw data into clear, organized, and useful visual information to support sales performance analysis and data-driven decision-making.
+This project is part of the **Excel with AI and Claude** course at **Santander** and focuses on creating a **sales dashboard in Microsoft Excel**. The goal is to turn raw data into clear, organized, and useful information for commercial management.
 
 The activity is aligned with the idea of organizing and presenting sales indicators in a format that is easy to read and interpret.
-
-### 📝 Introduction
-
-This challenge consists of developing a practical Excel solution to organize sales data, highlight relevant metrics, and present a visual dashboard that makes performance analysis easier. The main objective is to transform data into useful insights for commercial management and decision-making.
 
 ---
 
@@ -139,8 +144,6 @@ This challenge consists of developing a practical Excel solution to organize sal
 
 ### 📁 Repository Structure
 
-The structure of this project follows the pattern already used by the other challenges:
-
 ```text
 desafios_dio/
 └── Santander - Excel com IA e Claude/
@@ -150,17 +153,26 @@ desafios_dio/
 ```
 
 - `Projeto_3.xlsx`: spreadsheet file developed for the sales dashboard;
-- `README.md`: project documentation with description, objectives, instructions, and structure.
+- `README.md`: project documentation.
 
 ---
 
 ### 🚀 How to Run the Project
 
-1. Go to the project folder:
-   `cd "desafios_dio/Santander - Excel com IA e Claude/projeto_3"`
-2. Open `Projeto_3.xlsx` in Microsoft Excel;
-3. Review the available sheets, filters, and charts;
-4. Adjust the data or parameters as needed for analysis and dashboard exploration.
+1. Clone the Repository:
+   ```
+   git clone https://github.com/ThiagoSarnaglia1986/desafios_dio.git
+   ```
+
+2. Navigate to the Directory:
+   ```
+   cd "desafios_dio/Santander - Excel com IA e Claude/projeto_3"
+   ```
+
+3. Open the Spreadsheet:
+   - Open `Projeto_3.xlsx` in Microsoft Excel (2016 or newer);
+   - Review the available sheets, filters, and charts;
+   - Adjust the data or parameters as needed for analysis.
 
 ---
 
@@ -168,11 +180,17 @@ desafios_dio/
 
 The expected result of this activity is a functional, organized, and visually intuitive sales dashboard capable of:
 
-- presenting performance metrics;
-- facilitating the analysis of trends and comparisons;
-- supporting the interpretation of sales data;
-- contributing to better decisions based on evidence.
-
-As described in the activity, the central proposal is to transform raw data into clear and useful visual information for commercial management.
+- Presenting performance metrics;
+- Facilitating the analysis of trends and comparisons;
+- Supporting the interpretation of sales data;
+- Contributing to better decisions based on evidence.
 
 ---
+
+### 👤 Author
+
+Developed by **Thiago Queiroz Sarnaglia**  
+*Data Analyst Portfolio*
+
+* 🐙 **GitHub**: [@ThiagoSarnaglia1986](https://github.com/ThiagoSarnaglia1986)
+* 📁 **Repository**: [desafios_dio](https://github.com/ThiagoSarnaglia1986/desafios_dio/tree/main/Santander%20-%20Excel%20com%20IA%20e%20Claude/projeto_3)
